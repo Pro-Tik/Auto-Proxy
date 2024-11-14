@@ -22,7 +22,13 @@ This script is designed to load proxy URLs from a file, download proxies from th
 ## Usage
 
 ### Step 1: Prepare Your Proxy URLs File
-Create a file named `auth.txt` and add the proxy URLs that return proxy data in `ip:port:username:password` format.
+Create a file named `auth.txt` and add the proxy URLs that return proxy data in `ip:port:username:password` format:
+(https://proxy.webshare.io/api/v2/proxy/list/download/livnfbncznivtuykjfecyrjz/-/any/username/direct/-/)(You can get this while downloading from webshare proxies . There's a URL)
 
-Example of `auth.txt`:
+### Step 2: Run the Script
+Run the Python script from the command line:
+
+```bash
+python proxy_downloader.py
+
 
